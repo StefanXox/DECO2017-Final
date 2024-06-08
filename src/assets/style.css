@@ -1,0 +1,21 @@
+.content_view {
+    max-width: 1300px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/* 通用外盒子 */
+.out_view{
+    width: 100%;
+    height: auto;
+}
+.showForPc{display: block;}
+.showForPh{display: none;}
+@media screen and (max-width: 1300px) {
+    .showForPc{display: none;}
+    .showForPh{display: block;}
+    .content_view{
+        width: 96%;
+        margin: 0 2%;
+    }
+}
